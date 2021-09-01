@@ -1,7 +1,6 @@
 import { useQuery } from "@apollo/client";
-import React from "react";
-import { useState } from "react";
-import { Card, CardColumns, Col, Row } from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Row } from "react-bootstrap";
 import { getBooks } from "../../graphql-client/queries";
 import BookDetail from "./BookDetail";
 import BookItem from "./BookItem";
